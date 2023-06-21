@@ -1,0 +1,81 @@
+.img-container{
+    text-align: left;
+}
+body{
+    /* background-color: #F6F1E9; */
+    background-color: whitesmoke;
+    text-align: center;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30%;
+}
+
+.container-fluid{
+    padding: 3% 5%;
+}
+.title-image{
+    width: 90%;
+}
+.bluebird{
+    color: blue;
+}
+/* .title{
+    padding: 6% 5%;
+} */
+.btn{
+    margin-left: -25%; 
+}
+.nav-link{
+    color: blue;
+}
+.navbar-brand{
+    color: blue;
+    font-size: 2.5rem;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    margin-top: 3%;
+    padding: 3rem;
+    margin-bottom: 5%;
+}
+#footer p{
+    margin-bottom: 2%;
+}
+
+#about{
+    padding:200px 80px;
+}
+
+#about .right p{
+    text-align: right;
+}
+#about h2{
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+#bird-page{
+    padding: 150px 300px;
+}
+
+@media (max-width: 1028px){
+    .title-image{
+        margin-top: 10%;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .btn{
+        text-align: center;
+        margin-top: 7%;
+    }
+}
